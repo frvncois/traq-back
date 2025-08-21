@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Événement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "eventTitle": {
+      "type": "string"
+    },
+    "eventSubtitle": {
+      "type": "string"
+    },
+    "eventVenue": {
+      "type": "string"
+    },
+    "eventStreet": {
+      "type": "string"
+    },
+    "eventCity": {
+      "type": "string"
+    },
+    "eventPartners": {
+      "type": "text"
+    },
+    "eventArtists": {
+      "type": "richtext"
+    },
+    "eventLinks": {
+      "type": "richtext"
+    },
+    "eventContent": {
+      "type": "richtext"
+    },
+    "eventCover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "eventDate": {
+      "type": "datetime"
+    },
+    "eventGenre": {
+      "type": "string"
+    },
+    "eventOrigin": {
+      "type": "string"
+    }
+  }
+}

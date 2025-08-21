@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "À Propos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aboutIntro": {
+      "type": "text"
+    },
+    "aboutContent": {
+      "type": "richtext"
+    },
+    "artistsLocal": {
+      "type": "richtext"
+    },
+    "artistsInt": {
+      "type": "richtext"
+    },
+    "aboutMission": {
+      "type": "richtext"
+    },
+    "aboutConseil": {
+      "type": "richtext"
+    },
+    "aboutImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
