@@ -435,6 +435,7 @@ export interface ApiEventEvent extends Struct.CollectionTypeSchema {
     eventPartners: Schema.Attribute.Text;
     eventStreet: Schema.Attribute.String;
     eventSubtitle: Schema.Attribute.String;
+    eventTicket: Schema.Attribute.String;
     eventTitle: Schema.Attribute.String;
     eventVenue: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;

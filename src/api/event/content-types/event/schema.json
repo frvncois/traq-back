@@ -57,6 +57,9 @@
     },
     "eventOrigin": {
       "type": "string"
+    },
+    "eventTicket": {
+      "type": "string"
     }
   }
 }
